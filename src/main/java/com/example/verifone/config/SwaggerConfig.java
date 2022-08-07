@@ -12,6 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Collections;
 
+//configuration class for the swagger ui documentation
 @Configuration
 @EnableSwagger2
 @EnableWebMvc
