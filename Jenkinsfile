@@ -7,7 +7,7 @@ try{
         // for display purposes
         // Get some code from a GitHub repository
         git url: 'https://github.com/MaheshChavan1264/verifone-backend-api-v1',
-            credentialsId: 'mahesh',
+            credentialsId: 'Github',
             branch: 'main'
      }
     stage('Build docker') {
