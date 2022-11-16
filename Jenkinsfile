@@ -47,7 +47,7 @@ def notifyBuild(String buildStatus = 'STARTED'){
 
   // Email notification
   emailext (
-     to: "admin@gmail.com",
+     to: "mahesh.chavan1264@gmail.com",
      subject: subject_email,
      body: details,
      recipientProviders: [[$class: 'DevelopersRecipientProvider']]
