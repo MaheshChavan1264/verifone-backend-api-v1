@@ -32,19 +32,19 @@ public class VerifoneApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-       LocalDateTime expiryDate = LocalDateTime.of(2022, 10, 30, 23, 59);
-        SimCard addFirstRecord = new SimCard();
-        addFirstRecord.setId(0);
-        addFirstRecord.setSimCardNo(12345667890L);
-        addFirstRecord.setMobileNo(9090909090L);
-        addFirstRecord.setStatus("Active");
-        addFirstRecord.setExpiryDate(expiryDate);
-        addFirstRecord.setStateOfRegistration("Maharashtra");
-        addFirstRecord.setKyc(true);
-        addFirstRecord.setTelecomProvider("Airtel");
-        addFirstRecord.setFullName("Jammy Stark");
-        SimCard addedRecord = this.simCardRepository.save(addFirstRecord);
-        System.out.println("Sim card Detail Record is added"+addedRecord);
-        System.out.println("Hello welcome to the spring boot application");
+//       LocalDateTime expiryDate = LocalDateTime.of(2022, 10, 30, 23, 59);
+//        SimCard addFirstRecord = new SimCard();
+//        addFirstRecord.setId(0);
+//        addFirstRecord.setSimCardNo(12345667890L);
+//        addFirstRecord.setMobileNo(9090909090L);
+//        addFirstRecord.setStatus("Active");
+//        addFirstRecord.setExpiryDate(expiryDate);
+//        addFirstRecord.setStateOfRegistration("Maharashtra");
+//        addFirstRecord.setKyc(true);
+//        addFirstRecord.setTelecomProvider("Airtel");
+//        addFirstRecord.setFullName("Jammy Stark");
+//        SimCard addedRecord = this.simCardRepository.save(addFirstRecord);
+//        System.out.println("Sim card Detail Record is added"+addedRecord);
+//        System.out.println("Hello welcome to the spring boot application");
     }
 }
