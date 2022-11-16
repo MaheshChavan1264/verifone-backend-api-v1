@@ -15,7 +15,7 @@ try{
     }
     stage('Deploy docker'){
           echo "Docker Image Tag Name: ${dockerImageTag}"
-//           pwsh "docker stop springboot-deploy || true && docker rm springboot-deploy || true"
+          pwsh "docker stop verifone-backend-api-v1 && docker rm verifone-backend-api-v1"
           pwsh "docker run --name verifone-backend-api-v1 -d -p 8081:8081 verifone-backend-api-v1:${env.BUILD_NUMBER}"
     }
 }catch(e){
