@@ -7,6 +7,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 //Added comment for testing purspose
+//Added for testing purspose
 
 @Entity
 @Table(name = "simdetails")
